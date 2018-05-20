@@ -1,5 +1,6 @@
 import tensorflow as tf
 # from tf_utils import random_mini_batches
+# from tensorflow.python.framework import ops
 
 """
 Creates the placeholders for the tensorflow session.
