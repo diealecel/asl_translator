@@ -27,6 +27,7 @@ kNumFrames = 5
 kNumSamples = 10
 kMotionThreshold = 75
 kNumLabels = 26
+kNumPeople = 5
 
 #DATA
 test = []
@@ -37,7 +38,7 @@ alpha = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "
 
 #STAGE DATA
 for character in alpha:
-    for i in range(2,5):
+    for i in range(kNumPeople):
 
         if i == (ord(character) - 95)%4+2 or (character is "a" and i == 2):
             test_label = np.zeros((26,))
