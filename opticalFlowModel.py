@@ -147,7 +147,7 @@ def generateData():
 
     #GENERATE THE TEST SET
     for f in test:
-        name = "/Users/diego/Desktop/cs230proj/alpha/" + f + ".mov"
+        name = "ADD YOUR FILE PATH TO FILE" + f + ".mov"
 
         processVideoOpticalFlow(name)
 
